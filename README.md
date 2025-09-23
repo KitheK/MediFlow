@@ -1,4 +1,4 @@
-# Medical Platform
+# Mediflow Medical Platform
 
 A simple, easy-to-run medical platform for patient management, appointment scheduling, and medical records.
 
