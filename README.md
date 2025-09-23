@@ -374,4 +374,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Built with ❤️ for healthcare professionals**
 
-*Enterprise-grade medical workflow management with modern technology stack, comprehensive security, and scalable architecture.*
+*Simple, clean, and easy to run - perfect for medical practice management!*
