@@ -9,7 +9,64 @@ A comprehensive, production-ready medical workflow management system with a mode
 - Node.js (v14 or higher)
 - Docker & Docker Compose (recommended)
 - SQLite/PostgreSQL
+## 🛠️ Technology Stack
 
+### Backend (FastAPI/Python)
+- **FastAPI** - Modern Python web framework with automatic API docs
+- **SQLAlchemy** - Database ORM with relationship management
+- **SQLite/PostgreSQL** - Database storage with migration support
+- **JWT Authentication** - Secure token-based authentication
+- **bcrypt** - Password hashing and security
+- **Pydantic** - Data validation and serialization
+- **uvicorn** - ASGI server for production deployment
+- **Docker** - Containerization and deployment
+
+### Frontend (React.js)
+- **React 18+** - Modern UI framework with hooks
+- **React Query (@tanstack/react-query)** - Server state management
+- **Chart.js** - Advanced data visualization and analytics
+- **Styled Components** - CSS-in-JS styling solution
+- **Axios** - HTTP client for API communication
+- **React Router** - Client-side routing
+- **Jest & Testing Library** - Comprehensive testing suite
+- **Webpack** - Module bundling and optimization
+
+### Database & Security
+- **SQLAlchemy Models** - Relational data modeling
+- **JWT Tokens** - Secure API authentication
+- **Password Hashing** - bcrypt security implementation
+- **CORS Support** - Cross-origin resource sharing
+- **Input Validation** - Pydantic schema validation
+
+## 📊 Core Features
+
+### Patient Management System
+- **Comprehensive Patient Profiles** - Demographics, medical history, insurance
+- **Medical Records** - EHR-compliant record keeping with audit trails
+- **Patient Search & Filtering** - Advanced search capabilities
+- **Document Management** - Upload and manage patient documents
+- **Insurance Verification** - Real-time coverage checking
+
+### Resource Management
+- **Medical Equipment Tracking** - Availability, maintenance, allocation
+- **Staff Scheduling** - Doctor availability and appointment management
+- **Inventory Management** - Medical supplies and medication tracking
+- **Room Management** - Facility scheduling and utilization
+
+### Analytics & Reporting
+- **Real-time Dashboard** - Live metrics and KPIs
+- **Patient Analytics** - Demographics, visit patterns, outcomes
+- **Resource Utilization** - Equipment usage, staff efficiency
+- **Financial Reports** - Revenue tracking, billing analytics
+- **Custom Reports** - Exportable data analysis
+
+### Authentication & Security
+- **JWT-based Authentication** - Secure token management
+- **Role-based Access Control** - Fine-grained permissions
+- **Password Security** - bcrypt hashing with salt
+- **Session Management** - Secure user sessions
+- **API Rate Limiting** - Protection against abuse
+  
 ### Installation & Running
 
 #### Option 1: Docker (Recommended)
@@ -114,63 +171,7 @@ mediflow/
 └── README.md                    # Project documentation
 ```
 
-## 🛠️ Technology Stack
 
-### Backend (FastAPI/Python)
-- **FastAPI** - Modern Python web framework with automatic API docs
-- **SQLAlchemy** - Database ORM with relationship management
-- **SQLite/PostgreSQL** - Database storage with migration support
-- **JWT Authentication** - Secure token-based authentication
-- **bcrypt** - Password hashing and security
-- **Pydantic** - Data validation and serialization
-- **uvicorn** - ASGI server for production deployment
-- **Docker** - Containerization and deployment
-
-### Frontend (React.js)
-- **React 18+** - Modern UI framework with hooks
-- **React Query (@tanstack/react-query)** - Server state management
-- **Chart.js** - Advanced data visualization and analytics
-- **Styled Components** - CSS-in-JS styling solution
-- **Axios** - HTTP client for API communication
-- **React Router** - Client-side routing
-- **Jest & Testing Library** - Comprehensive testing suite
-- **Webpack** - Module bundling and optimization
-
-### Database & Security
-- **SQLAlchemy Models** - Relational data modeling
-- **JWT Tokens** - Secure API authentication
-- **Password Hashing** - bcrypt security implementation
-- **CORS Support** - Cross-origin resource sharing
-- **Input Validation** - Pydantic schema validation
-
-## 📊 Core Features
-
-### Patient Management System
-- **Comprehensive Patient Profiles** - Demographics, medical history, insurance
-- **Medical Records** - EHR-compliant record keeping with audit trails
-- **Patient Search & Filtering** - Advanced search capabilities
-- **Document Management** - Upload and manage patient documents
-- **Insurance Verification** - Real-time coverage checking
-
-### Resource Management
-- **Medical Equipment Tracking** - Availability, maintenance, allocation
-- **Staff Scheduling** - Doctor availability and appointment management
-- **Inventory Management** - Medical supplies and medication tracking
-- **Room Management** - Facility scheduling and utilization
-
-### Analytics & Reporting
-- **Real-time Dashboard** - Live metrics and KPIs
-- **Patient Analytics** - Demographics, visit patterns, outcomes
-- **Resource Utilization** - Equipment usage, staff efficiency
-- **Financial Reports** - Revenue tracking, billing analytics
-- **Custom Reports** - Exportable data analysis
-
-### Authentication & Security
-- **JWT-based Authentication** - Secure token management
-- **Role-based Access Control** - Fine-grained permissions
-- **Password Security** - bcrypt hashing with salt
-- **Session Management** - Secure user sessions
-- **API Rate Limiting** - Protection against abuse
 
 ## 🔧 API Endpoints
 
